@@ -23,4 +23,4 @@ adb push boot.img /sdcard/romswitcher/second.img
 zip -r kernel.zip META-INF boot.img
 mv -v kernel.zip ../
 cd ..
-adb push kernel.zip /sdcard/0/
+adb push kernel.zip /sdcard/
